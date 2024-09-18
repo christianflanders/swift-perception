@@ -16,7 +16,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/christianflanders/swift-macro-testing.git", branch: "main"),
-    .package(url: "https://github.com/sjavora/swift-syntax-xcframeworks.git", "510.0.1"),
+    .package(url: "https://github.com/sjavora/swift-syntax-xcframeworks.git", from: "510.0.1"),
     .package(url: "https://github.com/pointfreeco/xctest-dynamic-overlay", from: "1.2.2"),
   ],
   targets: [
